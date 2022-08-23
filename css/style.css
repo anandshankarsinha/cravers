@@ -1,0 +1,242 @@
+/* NAVBAR STYLE */
+
+#logo1 img {
+  height: 70px;
+  border-radius: 10px;
+  padding: 2px 5px;
+}
+#navbar {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+#navbar::before {
+  content: "";
+  position: absolute;
+  background-color: black;
+  top: 0px;
+  left: 0px;
+  height: 90px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.2;
+}
+#navbar ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  padding: 16px;
+  font-family: "Baloo Bhai 2", cursive;
+}
+#navbar ul li {
+  margin: 4px 10px;
+}
+#navbar ul li a {
+  text-decoration: none;
+  color: wheat;
+  padding: 10px;
+  margin: 2px;
+  font-size: 20px;
+}
+#navbar ul li a:hover {
+  color: black;
+  background-color: rgb(171, 118, 118);
+  border-radius: 10px;
+}
+
+/* SECTION STARTED */
+
+.homesection h1 {
+  text-align: center;
+  font-size: 6.4rem;
+  color: white;
+  font-family: "DynaPuff", cursive;
+}
+.homesection p {
+  text-align: center;
+  line-height: 0px;
+  font-size: 2.96rem;
+  color: white;
+  font-family: "Aboreto", cursive;
+  width: 100%;
+}
+.homesection::before {
+  content: "";
+  position: absolute;
+  background: url(../SECTIONBG.JPG) no-repeat center center/cover;
+  top: 0px;
+  left: 0px;
+  height: 500px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.89;
+}
+/* service section  */
+.services {
+  display: flex;
+  position: absolute;
+  position: absolute;
+  top: 600px;
+}
+.services .box {
+  height: 400px;
+  background-color: #f2f2f2;
+  width: 400px;
+  border: 2px solid brown;
+  padding: 20px;
+  margin: 20px;
+  margin-left: 35px;
+  border-radius: 23px;
+  /* display: flex; */
+}
+.services .box img {
+  height: 200px;
+  width: 250px;
+
+  margin: 10px 70px;
+  border-radius: 23px;
+}
+.services .box h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: "Aboreto", cursive;
+}
+.heading h1 {
+  text-align: center;
+  font-size: 3.4rem;
+  color: rgb(48, 46, 46);
+  font-family: "DynaPuff", cursive;
+  position: absolute;
+  top: 515px;
+  left: 11em;
+  justify-content: center;
+  justify-items: center;
+  margin: auto;
+}
+.services .box p {
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Baloo Bhai 2", cursive;
+}
+.services .box a {
+  text-decoration: none;
+  color: black;
+}
+
+.services .box a:hover {
+  color: black;
+  background-color: rgb(237, 234, 143);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.clients img{
+    /* position: absolute; */
+    /* top: 1150px; */
+    height :120px;
+    margin: 40px;
+    margin-top: 95px;
+    padding: 20px;
+    overflow: hidden;
+}
+#clientsection{
+    display: flex;
+    position: absolute;
+    top: 1100px;
+    height: 500px;
+    overflow: hidden;
+    width: 100%;
+}
+#clientsection h1{
+    text-align: center;
+  font-size: 3.4rem;
+  color: rgb(48, 46, 46);
+  font-family: "DynaPuff", cursive;
+  position: absolute;
+  /* top: 515px; */
+  left: 11em;
+  justify-content: center;
+  justify-items: center;
+  margin: auto;
+  margin-top: 15px;
+}
+
+#clientsection::before{
+    content: "";
+    position: absolute;
+    background: url(../coffee-beans-1291656_1280.jpg) no-repeat center center/cover;
+    top: 0px;
+    left: 0px;
+    height: 300px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.29;
+    overflow: hidden;
+}
+
+footer{
+    position: relative;
+    background-color: black;
+    color: white;
+    top: 945px;
+    text-align: center;
+   
+    margin: 0;
+}
+.contact::before{
+    content: "";
+    position: absolute;
+    background: url(../contact-us-2993000_1920.jpg) no-repeat center center /cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.formgroup{
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    /* background-color: black; */
+    border: 2px solid black;
+    width: 350px;
+    border-radius: 34px;
+}
+.formgroup input,textarea{
+    display: flex;
+    flex-direction: column;
+    /* display: block; */
+    position: relative;
+    left: 30px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 23px;
+    border: 1px solid black;
+}
+.formgroup label{
+    text-align: center;
+    display: flex; 
+    /* flex-direction: column; */
+    /* display: block; */
+    position: relative;
+    left:89px;
+    justify-items: center;
+    align-items: center;
+    
+}
+.formgroup button{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 23px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+/* https://www.udemy.com/course/elementary-english-intensive-spoken-english-course-a1-a2/ */
